@@ -3,7 +3,7 @@
 This document defines the minimum requirements for a system to claim
 **JITAN-Core compliance**.
 
----
+
 
 ## 1. Intent Handling
 
@@ -17,7 +17,11 @@ A compliant implementation MUST:
 - Produce a stable content hash for each intent
 - Reject mutation of intents after creation
 
----
+  ### Intent Hashing
+
+An implementation MUST reproduce the exact `expected_hash` value for each published test vector.
+
+Failure to do so indicates a non-conformant implementation.
 
 ## 2. Authorization Semantics
 
