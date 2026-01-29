@@ -1,5 +1,15 @@
 # jitan-spec
-This specification defines JITAN (Just-In-Time Authorization &amp; Notarization), a protocol for multi-signature authorization of actions performed by autonomous systems including AI agents, automated workflows, and robotic systems.
+This specification defines JITAN (Just-In-Time Authorization & Notarization), a protocol for multi-signature authorization of actions performed by autonomous systems including AI agents, automated workflows, and robotic systems.
+
+## JITAN provides:
+-	Multi-signature authorization requiring approval from multiple parties before action execution
+-	Cryptographic proof of authorization using digital signatures
+-	Policy-driven decision making with configurable thresholds and quorums
+-	Immutable audit trails with append-only attestation records
+-	Replay protection via one-time execution tokens
+-	Budget and rate limiting to prevent abuse
+The protocol is designed to prevent unauthorized actions while maintaining operational efficiency through sub-second authorization decisions.
+
 
 ## Status
 
