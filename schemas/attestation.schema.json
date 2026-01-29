@@ -1,0 +1,17 @@
+{
+  "title": "JITAN Attestation",
+  "type": "object",
+  "required": ["intent_hash", "decision", "signers", "timestamp"],
+  "properties": {
+    "intent_hash": { "type": "string" },
+    "decision": {
+      "type": "string",
+      "enum": ["allow", "deny"]
+    },
+    "signers": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "timestamp": { "type": "string", "format": "date-time" }
+  }
+}
