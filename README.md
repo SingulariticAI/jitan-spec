@@ -43,3 +43,6 @@ JITAN is to AI actions what a notary is to legal documents.
 - **test-vectors/** — Validation examples
 
 If you want to implement JITAN, start with **CONFORMANCE.md**.
+
+## If your implementation does not produce the exact hashes in `/test-vectors`, it is wrong.
+
