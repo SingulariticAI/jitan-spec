@@ -17,5 +17,8 @@
     }
   },
 
+  "canonical_intent": "{\"action\":{\"namespace\":\"payments\",\"operation\":\"refund\"},\"id\":\"intent-001\",\"originator\":{\"id\":\"agent-1\"},\"params\":{\"amount\":100}}",
+
   "expected_hash": "cba86dc6f7a915e01a61bdbc9df6120d527f4a10b96fb20d7f781a7f59381e3f"
 }
+
