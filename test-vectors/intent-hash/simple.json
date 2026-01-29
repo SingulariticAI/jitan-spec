@@ -1,0 +1,21 @@
+{
+  "description": "Basic intent hashing test vector",
+  "canonicalization": "JSON sorted keys, UTF-8, no whitespace",
+  "hash_algorithm": "SHA-256",
+
+  "intent": {
+    "id": "intent-001",
+    "action": {
+      "namespace": "payments",
+      "operation": "refund"
+    },
+    "params": {
+      "amount": 100
+    },
+    "originator": {
+      "id": "agent-1"
+    }
+  },
+
+  "expected_hash": "PUT_REAL_SHA256_HASH_HERE"
+}
