@@ -1,4 +1,0 @@
-import hashlib
-
-s = '{"action":{"namespace":"payments","operation":"refund"},"id":"intent-001","originator":{"id":"agent-1"},"params":{"amount":100}}'
-print(hashlib.sha256(s.encode("utf-8")).hexdigest())
