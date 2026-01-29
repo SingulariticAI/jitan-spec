@@ -11,6 +11,16 @@ This specification defines JITAN (Just-In-Time Authorization &amp; Notarization)
 
 This spec uses **RFC 2119** normative language (MUST / SHOULD / MAY).
 
+## Conceptual Model
+
+JITAN treats authorization as a **notarial act**:
+
+- An action is proposed
+- Independent parties attest to its validity
+- A cryptographic record is produced
+- Execution is permitted exactly once
+
+JITAN is to AI actions what a notary is to legal documents.
 
 ## **Quick Orientation**
 
