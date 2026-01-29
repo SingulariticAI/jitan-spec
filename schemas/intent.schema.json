@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JITAN Intent",
+  "type": "object",
+  "required": ["id", "action", "params", "originator", "hash"],
+  "properties": {
+    "id": { "type": "string" },
+    "action": {
+      "type": "object",
+      "required": ["namespace", "operation"],
+      "properties": {
+        "namespace": { "type": "string" },
+        "operation": { "type": "string" }
+      }
+    },
+    "params": { "type": "object" },
+    "originator": {
+      "type": "object",
+      "required": ["id"],
+      "properties": {
+        "id": { "type": "string" }
+      }
+    },
+    "hash": { "type": "string" }
+  }
+}
